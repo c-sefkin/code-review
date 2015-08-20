@@ -1,0 +1,38 @@
+Skills Test - Front End Developer
+
+Below is a brief for a fictional feature which needs to be implemented. Expected deliverable is a prototype (HTML, CSS, JavaScript) that covers basic interactions and structure. You can be as creative or as practical as you see fit, just be sure to explain your decisions. Please don’t hesitate to ask any questions you might have about the exercise.
+
+
+Problem Statement
+
+Users need to be able to navigate across our product easily and efficiently.
+
+
+Project Brief
+
+Convert the following parts of the attached design into HTML / CSS / JS. Note that you should not convert the full design, just the following parts:
+
+1. The global navigation header. This includes the logo, links (audiences, integrations, notifications, objectives menu, and the user account link). Note that assets for each image are attached.
+
+2. The Objectives drop down menu
+
+
+Requirements
+
+Your deliverable for this exercise is a prototype built solely using HTML, CSS and JavaScript. Feel free to use preprocessors (Sass or Less), but we do ask that you avoid using front-end frameworks such as Bootstrap, Foundation, etc. You can deliver your project via the means of your choice (public github repo - note please don’t use the lytics name in your repo, compressed email attachment, hosted on your domain, etc.)
+
+
+Browser Support
+
+Your prototype should work and render accurately in the latest version of every major browser (Google Chrome, Firefox, Internet Explorer, etc).
+
+
+Success Criteria
+
+We’ll evaluate your prototype based on the following criteria:
+
+- All requirements are met.
+- The prototype works in the latest version of all major browsers.
+- The appropriate use of markup - Is the markup valid? Are the correct elements used to structure the content?
+- Optimization - are assets compressed and sufficiently optimized to ensure the prototype loads quickly?
+- Accessibility - Does the semantic structure of the prototype ensure that it is usable when styles and JavaScript are disabled?
