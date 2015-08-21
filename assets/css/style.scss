@@ -1,8 +1,8 @@
 @font-face {
     font-family: "proximanova";
-    src: url("proximanova-semibold-webfont.eot");
-    src: url("proximanova-semibold-webfont.ttf"),
-         url("proximanova-semibold-webfont.wof");
+    src: url("../fonts/proximanova-semibold-webfont.eot");
+    src: url("../fonts/proximanova-semibold-webfont.ttf"),
+         url("../fonts/proximanova-semibold-webfont.wof");
 }
 
 body {
@@ -29,7 +29,7 @@ h1 {
 }
  
 h2 {
-    font-family: 'PT Serif', serif;
+    font-family: "proximanova";
     font-size: 32px;
     line-height: 1.4em;
     margin: 0 0 .4em;
@@ -70,16 +70,8 @@ header {
             zoom:1;
         }
  
-h1.logo a {
-    color: #d8d8d8;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 20px;
-    line-height: 22px;
-    float: left;
-    letter-spacing: 0.2em;
-}
+        img {
+          width: 70px; }
  
 a.to_nav {
     float: right;
@@ -139,7 +131,7 @@ a.to_nav:focus {
 /*footer*/
  
 footer {
-    font-family: 'PT Serif', serif;
+    font-family: "proximanova";
     font-style: italic;
     text-align: center;
     font-size: 14px;
