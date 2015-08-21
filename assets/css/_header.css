@@ -1,5 +1,9 @@
+@font-face {
+  font-family: "proximanova";
+  src: url("proximanova-semibold-webfont.eot");
+  src: url("proximanova-semibold-webfont.ttf"), url("proximanova-semibold-webfont.wof"); }
 body {
-  font: 16px/1.4em 'PT Sans', sans-serif;
+  font-family: "proximanova";
   color: #1c1c1c; }
 
 p,
