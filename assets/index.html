@@ -2,20 +2,75 @@
     <html lang="en">
         <head>
             <meta charset="utf-8">
-            <title>Dashboard</title>
             
-            <script src="js/lib/jquery-2.1.3.min.js"></script>
-            <script src="js/addHeader.js"></script>
+        <!-- mobile specific -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <!-- css     -->
+            <link rel="stylesheet" type="css" href="../assets/css/normalize.css">
+            <link rel="stylesheet" type="css" href="../assets/css/_header.css">
+            
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        <script src="js/lib/jquery-2.1.3.min.js"></script>
+        
+        <!-- Favicons-->
+        <link rel="shortcut icon" href="img/favicon.ico">    
+            
             <script> $(function() {
                 $("#includedContent").load("views/parts/part_header.html");
             });
             </script>
             
         </head>
-        <body>
-            <div class="container">
-                <div id="includedContent"></div>
-                <h2 class="header">Dashboard Content</h2>
-            </div>
-        </body>
+            <body id="home">
+                
+                <div class="container">
+                    <div id="includedContent"></div>
+                    <!-- <h2 class="header">Dashboard Content</h2> -->
+                </div> 
+                   
+                <div class="wrapper">
+                    <header>
+                        <h1 class="logo"><a href="">Nav</a></h1>
+                        <a class="to_nav" href="#primary_nav">Menu</a>
+                    </header>
+                    <article>
+                        <h2>Blue. No, yel</h2>
+                        <p>Shut up!</p>
+                    </article>
+                    <article>
+                        <h2>We want a shrubbery!</h2>
+                        <p>Look, my liege!</p>
+                        <ul>
+                            <li>The nose</li>
+                            <li>Shh</li>
+                            <li>Look</li>
+                            <li>The foot</li>
+                            <li>The eye</li>
+                        </ul>
+                    </article>
+                    <nav id="primary_nav">
+         
+                        <ul>
+                         
+                            <li><a href="">Portfolio</a></li>
+                         
+                            <li><a href="">About Me</a></li>
+                         
+                            <li><a href="">Nonsense</a></li>
+                         
+                            <li><a href="">Services</a></li>
+                         
+                            <li><a href="">Contact</a></li>
+                         
+                            <li class="top"><a href="#home">Top</a></li>
+                         
+                        </ul>
+                     
+                    </nav><!--end primary_nav-->
+                </div>
+            </body>
     </html>
