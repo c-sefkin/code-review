@@ -114,10 +114,10 @@ footer {
   a.to_nav {
     display: none; }
 
-  .wrapper {
+  wrapper.to_nav {
     position: relative;
     width: 768px;
-    /*margin: auto; */
+    margin: auto;
   }
 
   #primary_nav {
