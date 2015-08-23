@@ -34,7 +34,7 @@ article {
 header {
   background: #44484e;
   padding: 15px 20px;
-  width: 1500px;
+  width: 1000px;
  }
 
 /*shorter clearfix http://nicolasgallagher.com/micro-clearfix-hack/*/
@@ -114,18 +114,19 @@ footer {
   a.to_nav {
     display: none; }
 
-  wrapper.to_nav {
+  .wrapper {
     position: relative;
     width: 768px;
-    margin: auto;
+    /*margin: auto; */
   }
 
   #primary_nav {
     position: absolute;
-    top: 5px;
-    right: 10px;
-    background: none; }
-
+    top: 15px;
+    background: none;
+    float: left;
+    margin-left: 130px;
+  }
   #primary_nav li {
     display: inline; }
 
