@@ -4,7 +4,9 @@
   src: url("../fonts/proximanova-semibold-webfont.ttf"), url("../fonts/proximanova-semibold-webfont.wof"); }
 body {
   font-family: "proximanova";
-  color: #4c5159; }
+  color: #4c5159;
+  overflow: hidden;
+}
 
 p,
 ul {
@@ -81,7 +83,9 @@ a.to_nav:focus {
 #primary_nav ul {
   list-style: none;
   background: #44484e;
-  padding: 5px 0;
+  width: 100%;
+  /*padding: 5px 0;*/
+
  }
 
 #primary_nav li a {
@@ -129,10 +133,15 @@ footer {
     background: none;
     float: left;
     margin-left: 130px;
+    width: 100%;
+    overflow: hidden;
   }
 
   .right {
-    margin-left: 450px;
+    /*margin-left: 850px;*/
+    float: right;
+    margin-right: 150px;
+
   }
   #primary_nav li {
     display: inline; }
