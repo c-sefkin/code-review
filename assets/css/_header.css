@@ -1,7 +1,9 @@
 @font-face {
   font-family: "proximanova";
   src: url("../fonts/proximanova-semibold-webfont.eot");
-  src: url("../fonts/proximanova-semibold-webfont.ttf"), url("../fonts/proximanova-semibold-webfont.wof"); }
+  src: url("../fonts/proximanova-semibold-webfont.ttf"), url("../fonts/proximanova-semibold-webfont.wof");
+  font-weight: lighter;
+}
 body {
   font-family: "proximanova";
   color: #4c5159;
@@ -17,14 +19,16 @@ ul {
   padding: 0 0 0 20px; }
 
 a {
-  color: #1D745A; }
+  color: #1D745A;
+ }
 
 h2 {
   font-family: "proximanova";
   font-size: 32px;
   line-height: 1.4em;
   margin: 0 0 .4em;
-  font-weight: bold; }
+  font-weight: normal;
+}
 
 /*layout*/
 article {
@@ -56,7 +60,17 @@ header {
   zoom: 1; }
 
 img {
-  width: 70px; }
+
+ }
+
+ .logo {
+   width: 70px;
+ }
+
+.bell {
+  width: 20px;
+}
+
 
 a.to_nav {
   float: right;
@@ -65,7 +79,7 @@ a.to_nav {
   text-decoration: none;
   padding: 0 10px;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 22px;
   height: 22px;
   text-transform: uppercase;
@@ -93,7 +107,7 @@ a.to_nav:focus {
   padding: 0 20px;
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   letter-spacing: 0.1em;
@@ -119,7 +133,8 @@ footer {
 /*media queries*/
 @media only screen and (min-width: 768px) {
   a.to_nav {
-    display: none; }
+    display: none;
+   }
 
   .wrapper {
     position: relative;
@@ -132,9 +147,8 @@ footer {
     top: 15px;
     background: none;
     float: left;
-    margin-left: 130px;
+    margin-left: 100px;
     width: 100%;
-    overflow: hidden;
   }
 
   .right {
