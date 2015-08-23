@@ -127,11 +127,6 @@ footer {
     float: left;
     margin-left: 130px;
   }
-
-  /*.right {
-    margin-left: 500px;
-  }*/
-
   #primary_nav li {
     display: inline; }
 
@@ -145,5 +140,3 @@ footer {
 
   #primary_nav li.top {
     display: none; } }
-
-/*# sourceMappingURL=_header.css.map */
