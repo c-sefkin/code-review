@@ -1,6 +1,6 @@
 ##Code Challenge##
 
-This webpage is meant to fulfill the requirements of an code challenge assignment. 
+This webpage is meant to fulfill the requirements of a code challenge assignment. 
 
 ### Description ###
 
