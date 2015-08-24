@@ -34,4 +34,9 @@ $(document).ready(function() {
         $("#ret-check").hide();
     })
 
+    $(window).resize(function(){
+    	if ($(window).width() <= 768){
+    		$(".dropdown-div").hide();
+    	}
+    });
 });

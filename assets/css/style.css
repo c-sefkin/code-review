@@ -32,6 +32,12 @@ h2 {
     margin: 0 0 .4em;
     font-weight: normal;
 }
+
+.right-mobile {
+  float: right;
+  display: inline;
+  width: 200px;
+}
 /*layout*/
 
 article {
@@ -76,7 +82,6 @@ header {
     width: 20px;
 }
 a.to_nav {
-    float: right;
     color: #fff;
     background: #4e4e4e;
     text-decoration: none;
@@ -90,6 +95,7 @@ a.to_nav {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
+    margin-right: 10px;
 }
 /*navigation*/
 
@@ -154,6 +160,10 @@ a.to_nav {
     #primary_nav li.top {
         display: none;
     }
+
+    .right-mobile {
+      display: none;
+    }
 }
 .dropdown-div nav,
 .dropdown-div ul,
@@ -186,4 +196,10 @@ a.to_nav {
 .sub-drop:hover {
     color: #0093d0 !important;
     background: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .dropdown-div {
+    display: none;
+  }
 }
