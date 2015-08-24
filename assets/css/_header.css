@@ -7,7 +7,22 @@
 body {
   font-family: "proximanova";
   color: #4c5159;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+
+.sub-drop {
+  display: block;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  float: none !important;
+}
+
+
+hr {
+  width: 90%;
+  margin-top: 10px;
+  display: block
 }
 
 p,
@@ -74,7 +89,6 @@ img {
 
 .eye {
   width: 20px;
-  padding-right: -20px;
 }
 
 
@@ -94,10 +108,10 @@ a.to_nav {
   -moz-border-radius: 2px;
   border-radius: 2px; }
 
-a.to_nav:hover,
+/*a.to_nav:hover,
 a.to_nav:focus {
   color: #44484e;
-  background: #ccc; }
+  background: #ccc; }*/
 
 /*navigation*/
 #primary_nav ul {
@@ -107,6 +121,71 @@ a.to_nav:focus {
   /*padding: 5px 0;*/
 
  }
+
+ .dropdown {
+   list-style: none;
+    *zoom: 1;
+ }
+
+ .dropdown:before,
+ .dropdown:after {
+   content: " ";
+   display: table;
+ }
+ .dropdown:after {
+   clear: both;
+ }
+ .dropdown ul {
+   list-style: none;
+   /*width: 9em;*/
+ }
+ .dropdown li {
+   position: relative;
+ }
+ /*.dropdown > li.hover > ul {
+   left: 0;
+ }
+.dropdown li li.hover ul {
+   left: 100%;
+   top: 0;
+ }*/
+
+ .dropdown a {
+   padding: 10px 15px;
+   /*color: #fff;
+   *zoom: 1;*/
+ }
+ .dropdown > li > a {
+   display: block;
+ }
+ /*dropdown li ul {
+   position: absolute;
+   left: -9999px;
+   z-index: 100;
+ }*/
+ .dropdown li li a {
+   display: block;
+   /*background: #1d7a62;*/
+    position: relative;
+    z-index:100;
+    /*border-top: 1px solid #175e4c;*/
+ }
+ .dropdown li li li a {
+    /*background:#249578;*/
+    z-index:200;
+    border-top: 1px solid #1d7a62;
+}
+
+.dropdown-div {
+  width: 370px;
+  margin-top: 33px;
+  float: right;
+  display: none;
+}
+
+.dropdown-div li {
+  min-height: 40px;
+}
 
 #primary_nav li a {
   display: block;
@@ -124,10 +203,10 @@ a.to_nav:focus {
 #primary_nav li:last-child a {
   border-bottom: none; }
 
-#primary_nav li a:hover,
+/*#primary_nav li a:hover,
 #primary_nav li a:focus {
   color: #44484e;
-  background: #ccc; }
+  background: #ccc; }*/
 
 /*footer*/
 footer {
@@ -158,11 +237,9 @@ footer {
   }
 
   .right {
-    /*margin-left: 850px;*/
     float: right;
     margin-right: 150px;
-
-  }
+}
   #primary_nav li {
     display: inline; }
 
@@ -176,3 +253,7 @@ footer {
 
   #primary_nav li.top {
     display: none; } }
+
+    .dropdown-div nav, .dropdown-div ul, .dropdown-div li, .dropdown-div a  {margin: 0; padding: 0;}
+
+    .dropdown-div a {text-decoration: none;}
