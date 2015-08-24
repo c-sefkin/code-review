@@ -1,4 +1,4 @@
-##Code Challenged##
+##Code Challenge##
 
 This webpage is meant to fulfill the requirements of an code challenge assignment. 
 
