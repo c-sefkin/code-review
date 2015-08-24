@@ -1,14 +1,10 @@
-##Question/Answer Board##
+##Code Challenged##
 
-This application is meant to fulfill the requirements of an code review assignment through Epicodus. For more information on Epicodus, see <http://www.epicodus.com/>.
+This webpage is meant to fulfill the requirements of an code challenge assignment. 
 
 ### Description ###
 
-Allow users to post and modify questions and responses.
-
-**Assignment:** Code Review - Question/Answer Board
-
-**<https://www.learnhowtoprogram.com/table-of-contents>**
+Responsive navbar and dropdown.
 
 ### Author ###
 
