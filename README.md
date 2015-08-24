@@ -14,8 +14,10 @@ Chris Sefkin
 
 August 23rd, 2015
 
-### Unfinished Things/Known Issues ###
-1.  
+### Known Issues ###
+1.  The mobile dropdown could be improved upon stylistically.
+2.  I would leverage browser caching and enable compression if not using heroku to deploy.
+3.  Definitely does not seemed optimited for IE.
 
 ### Setup ###
 ```
